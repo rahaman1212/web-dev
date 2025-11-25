@@ -1,0 +1,202 @@
+*{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: black;
+    
+}
+.content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 30px;
+    
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    transition: color 0.3s;
+    justify-items: center;
+    text-decoration: none;
+}
+
+.menu .active {
+  color:  black;
+  border-bottom: 2px solid #00d9ff;
+  padding: 4px;
+  transition: 0.3s;
+}
+nav a:hover {
+    color:indigo
+}
+
+#home {
+    margin: 10px;
+}
+
+#home .intro .cta-buttons .btn {
+    background: green;
+    padding: 100px 10%;
+    text-align: center;
+    border-radius: 10px;
+}
+  
+.cta-buttons .btn-1 {
+    padding: 10px; 
+    color: black;
+    border-radius: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: green;
+}
+
+.cta-buttons .btn-2 {
+    padding: 10px;
+    color: black;
+    border-radius: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: aliceblue;
+}
+
+.cta-buttons .btn-1:hover {
+    background-color: aqua;
+}
+
+.cta-buttons .btn-2:hover:hover {
+    background-color: aqua;
+}
+
+#home h1 {
+    text-align: center;
+    font-size: none;
+    color: indigo;
+}
+
+#home .about-image img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 4px crimson;
+    margin: 10px;
+    box-shadow: 0 0 25px rgba(0, 217, 255, 0.3);
+    transition: transform 0.4s ease;
+    align-items: center;
+}
+
+.about-image img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #00d9ff;
+}
+
+#skills table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: green;
+    border-radius: 20px; 
+    overflow: hidden;   
+}
+
+#skills {
+    text-align: center;
+}
+
+#skills th, #skills td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+#skills th {
+    background-color:blue;
+    color: #000;
+    font-weight: 600;
+}
+
+#skills td {
+    color: black;
+}
+
+#projects img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    object-fit: cover;
+}
+
+#projects img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #00d9ff;
+}
+
+#projects {
+    text-align: center;
+}
+
+#hobbies {
+    text-align: left;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    background: #1a1a1a;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 217, 255, 0.3);
+    text-align: center;
+    
+}
+
+#contact label {
+    color: white;
+    margin: 10px 0 5px
+    
+}
+
+#contact h2 {
+    text-align: center;
+}
+
+#contact input, #contact textarea {
+    padding: 10px;
+    border: 10px;
+    border-radius:20px;
+    background: white;
+    font-size: 1rem;
+    color: white;
+    resize: none;
+  
+}
+
+#contact button {
+    padding: 10px;
+    border: 10px;
+    color: black;
+    border-radius: 20px;
+    background: green;
+    font-weight: 300;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#contact button:hover {
+    background: aqua;
+}
+ 
