@@ -7,18 +7,34 @@ body {
     background-color: black;
     
 }
-.content-container{
+.content-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
+
 nav ul {
     display: flex;
     justify-content: center;
     gap: 25px;
-    margin: 30px;
-    
+    margin: 30px;    
+}
+
+.navbar {
+    background-color: navy;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
 }
 
 nav a {
@@ -36,28 +52,55 @@ nav a {
   transition: 0.3s;
 }
 nav a:hover {
-    color:indigo
+    color:chartreuse;
 }
 
 #home {
     margin: 10px;
 }
+    
+
+.home-div {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    position: relative;
+}
+
+/*#home .intro {
+    text-align: left;
+}*/
+
+.intro {
+    text-align: center;
+    margin-top: 5px;
+    border: 1px solid navy;
+    border-radius: 90px;
+    max-width: 600px;
+    max-height: 300px;
+    background-color: navy;
+    box-shadow: 0 0 25px rgba(0, 217, 255, 0.3)
+}
+
+.intro :hover {
+    color: #00d9ff;
+}
 
 #home .intro .cta-buttons .btn {
-    background: green;
     padding: 100px 10%;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 10px;  
 }
-  
+
 .cta-buttons .btn-1 {
     padding: 10px; 
+    margin-bottom: 100px;
     color: black;
     border-radius: 20px;
     font-weight: 500;
     cursor: pointer;
     transition: 0.3s;
-    background-color: green;
+    background-color: navy;
 }
 
 .cta-buttons .btn-2 {
@@ -81,30 +124,32 @@ nav a:hover {
 #home h1 {
     text-align: center;
     font-size: none;
-    color: indigo;
+    color: white;
 }
 
 #home .about-image img {
+    display: flex;
+    flex-direction: row-reverse;
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    border: 4px crimson;
+    border: 4px  crimson;
     margin: 10px;
     box-shadow: 0 0 25px rgba(0, 217, 255, 0.3);
     transition: transform 0.4s ease;
-    align-items: center;
 }
 
 .about-image img:hover{
     transform: scale(1.05);
     box-shadow: 0 0 20px #00d9ff;
 }
-
+.skills-header{
+    text-align: center;
+}
 #skills table {
     width: 60%;
     margin: 0 auto;
     border-collapse: collapse;
-    background: green;
     border-radius: 20px; 
     overflow: hidden;   
 }
@@ -120,13 +165,14 @@ nav a:hover {
 }
 
 #skills th {
-    background-color:blue;
+    background-color: navy;
     color: #000;
     font-weight: 600;
 }
 
 #skills td {
     color: black;
+    background-color: white;
 }
 
 #projects img {
@@ -136,6 +182,21 @@ nav a:hover {
     margin: 10px;
     transition: transform 0.3s, box-shadow 0.3s;
     object-fit: cover;
+}
+.project-image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.project-image div {
+    border: 1px solid navy;
+    border-radius: 30px;
+    background-color: navy;
+}
+
+.project-image .calculator {
+    background-color: navy;
 }
 
 #projects img:hover {
@@ -190,7 +251,7 @@ nav a:hover {
     border: 10px;
     color: black;
     border-radius: 20px;
-    background: green;
+    background: navy;
     font-weight: 300;
     cursor: pointer;
     transition: 0.3s;
