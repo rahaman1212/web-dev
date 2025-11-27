@@ -23,7 +23,6 @@ nav ul {
 }
 
 .navbar {
-    background-color: navy;
     padding: 15px;
     border-radius: 20px;
 
@@ -52,7 +51,7 @@ nav a {
   transition: 0.3s;
 }
 nav a:hover {
-    color:chartreuse;
+    color:blue;
 }
 
 #home {
@@ -89,6 +88,10 @@ nav a:hover {
     padding: 100px 10%;
     text-align: center;
     border-radius: 10px;  
+}
+
+.cta-buttons {
+    margin-left: 100px;
 }
 
 .cta-buttons .btn-1 {
@@ -142,6 +145,7 @@ nav a:hover {
     transform: scale(1.05);
     box-shadow: 0 0 20px #00d9ff;
 }
+
 .skills-header{
     text-align: center;
 }
@@ -155,6 +159,7 @@ nav a:hover {
 
 #skills {
     text-align: center;
+     margin-bottom: 100px; 
 }
 
 #skills th, #skills td {
@@ -174,6 +179,10 @@ nav a:hover {
     background-color: white;
 }
 
+.project-container {
+    margin-top: 100px;
+}
+
 #projects img {
     width: 300px;
     height: 200px;
@@ -185,17 +194,14 @@ nav a:hover {
 .project-image {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 40px;
+    gap: 20px;
+    box-shadow: 0 0 25px rgba(0, 217, 255, 0.3);
 }
 
 .project-image div {
     border: 1px solid navy;
     border-radius: 30px;
-    background-color: navy;
-}
-
-.project-image .calculator {
-    background-color: navy;
+    background-color: navy;  
 }
 
 #projects img:hover {
