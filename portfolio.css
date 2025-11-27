@@ -60,17 +60,20 @@ nav a:hover {
 }
     
 
-.home-div {
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-    position: relative;
-}
-
 /*#home .intro {
     text-align: left;
 }*/
+.about-container{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
 
+}
+.text-container{
+    text-align: center;
+
+}
 .intro {
     text-align: center;
     margin-top: 5px;
@@ -80,10 +83,6 @@ nav a:hover {
     max-height: 300px;
     background-color: navy;
     box-shadow: 0 0 25px rgba(0, 217, 255, 0.3)
-}
-
-.intro :hover {
-    color: #00d9ff;
 }
 
 #home .intro .cta-buttons .btn {
@@ -127,14 +126,14 @@ nav a:hover {
     color: white;
 }
 
-#home .about-image img {
+.about-image img {
     display: flex;
     flex-direction: row-reverse;
     height: 200px;
     width: 200px;
     border-radius: 50%;
     border: 4px  crimson;
-    margin: 10px;
+    margin: 100px;
     box-shadow: 0 0 25px rgba(0, 217, 255, 0.3);
     transition: transform 0.4s ease;
 }
