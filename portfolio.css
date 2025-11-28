@@ -25,7 +25,6 @@ nav ul {
 .navbar {
     padding: 15px;
     border-radius: 20px;
-
 }
 
 .nav-links {
@@ -58,21 +57,21 @@ nav a:hover {
     margin: 10px;
 }
     
-
 /*#home .intro {
     text-align: left;
 }*/
+
 .about-container{
     display: flex;
     flex-direction: row;
     gap: 30px;
     align-items: center;
-
 }
+
 .text-container{
     text-align: center;
-
 }
+
 .intro {
     text-align: center;
     margin-top: 5px;
@@ -99,7 +98,7 @@ nav a:hover {
 .cta-buttons .btn-1 {
     padding: 10px; 
     margin-bottom: 100px;
-    color: black;
+    color: white;
     border-radius: 20px;
     font-weight: 500;
     cursor: pointer;
@@ -151,6 +150,7 @@ nav a:hover {
 .skills-header{
     text-align: center;
 }
+
 #skills table {
     width: 60%;
     margin: 0 auto;
@@ -177,7 +177,7 @@ nav a:hover {
 
 #skills th {
     background-color: navy;
-    color: #000;
+    color: white;
     font-weight: 600;
 }
 
@@ -198,6 +198,7 @@ nav a:hover {
     transition: transform 0.3s, box-shadow 0.3s;
     object-fit: cover;
 }
+
 .project-image {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -210,14 +211,6 @@ nav a:hover {
     border: 1px solid navy;
     border-radius: 30px;
     background-color: navy; 
-    animation:backwards; 
-}
-
-.calculator {
-    border: 1px solid navy;
-    border-radius: 1px;
-    background-color: navy; 
-    animation:backwards; 
 }
 
 .project-container {
@@ -252,8 +245,7 @@ nav a:hover {
 
 #contact label {
     color: white;
-    margin: 10px 0 5px
-    
+    margin: 10px 0 5px   
 }
 
 #contact h2 {
@@ -267,8 +259,7 @@ nav a:hover {
     background: white;
     font-size: 1rem;
     color: white;
-    resize: none;
-  
+    resize: none;  
 }
 
 #contact button {
