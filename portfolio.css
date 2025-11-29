@@ -75,14 +75,14 @@ nav a:hover {
 .intro {
     text-align: center;
     margin-top: 5px;
+    margin-right: 100px;
     border: 1px solid navy;
     border-radius: 90px;
     max-width: 600px;
     max-height: 300px;
     background-color: navy;
     box-shadow: 0 0 25px rgba(0, 217, 255, 0.3);
-    padding: 15px
-    
+    padding: 20px;
 }
 
 #home .intro .cta-buttons .btn {
@@ -92,7 +92,7 @@ nav a:hover {
 }
 
 .cta-buttons {
-    margin-left: 100px;
+    margin-left: 500px;
 }
 
 .cta-buttons .btn-1 {
@@ -133,8 +133,8 @@ nav a:hover {
 .about-image img {
     display: flex;
     flex-direction: row-reverse;
-    height: 200px;
-    width: 200px;
+    height: 350px;
+    width: 350px;
     border-radius: 50%;
     border: 4px  crimson;
     margin: 100px;
