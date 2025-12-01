@@ -210,7 +210,6 @@ nav a:hover {
     display: flex;
     gap: 20px;
     padding: 20px;
-    box-shadow: 0 0 25px rgba(0, 217, 255, 0.3);
 }
 
 .project-image div {
@@ -241,6 +240,18 @@ nav a:hover {
     display: flex;
     gap: 15px;
     margin-left: 500px;
+    overflow: visible
+}
+
+.project-card2 {
+    width: 40px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 217, 255, 0.1);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    display: flex;
+    gap: 15px;
+    margin-left: 100px;
     overflow: visible;
 }
 
@@ -295,7 +306,7 @@ nav a:hover {
 #contact button {
     padding: 10px;
     border: 10px;
-    color: black;
+    color: white;
     border-radius: 20px;
     background: navy;
     font-weight: 300;
